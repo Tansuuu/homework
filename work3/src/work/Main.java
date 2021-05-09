@@ -8,7 +8,7 @@ public class Main {
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
 		Customer customer = new Customer(1, "Tansu Çaðla", "Tekin", LocalDate.of(1997,01,30), "222222222222");
-		customerManager.Save(customer);
+		customerManager.save(customer);
 
 	}
 

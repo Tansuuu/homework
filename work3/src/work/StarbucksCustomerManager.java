@@ -10,9 +10,9 @@ public class StarbucksCustomerManager extends BaseCustomerManager {
 	}
 	
 	@Override
-	public void Save(Customer customer) {
+	public void save(Customer customer) {
 		if(customerCheckService.CheckIfRealPerson(customer)) {
-			super.Save(customer);
+			super.save(customer);
 		}else {
 			System.out.println("Not a valid person");
 		}

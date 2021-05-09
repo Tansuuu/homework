@@ -2,5 +2,5 @@ package work;
 
 public interface CustomerService {
 	
-	void Save(Customer customer);
+	void save(Customer customer);
 }
