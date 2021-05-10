@@ -1,6 +1,8 @@
-package work;
+package Entities;
 
 import java.time.LocalDate;
+
+import Abstract.Entity;
 
 public class Customer implements Entity {
 		
